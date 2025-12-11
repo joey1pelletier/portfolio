@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz@6..96&display=swap');
 * {
     padding: 0;
@@ -22,6 +22,10 @@
 body {
     background-color: black;
     color: white;
+}
+
+.cmzoo-title {
+    font-size: 1em;
 }
 
 .top-nav {
@@ -84,6 +88,14 @@ body {
     display: flex;
     flex-direction: column;
     width: 50vw;
+}
+
+.cmzoo-text-side {
+    padding-left: 2em;
+    padding-right: 2em;
+    display: flex;
+    flex-direction: column;
+    width: 45vw;
 }
 
 .bio-name {
@@ -237,6 +249,15 @@ body {
     font-size: 3em;
     border-bottom: 1px solid white;
     margin-left: 1.5em;
+}
+
+.sub-header-left {
+    align-self: flex-start;
+    font-family: 'Bodoni Moda', serif;
+    font-size: 2em;
+    border-bottom: 1px solid white;
+    margin-left: 2.1em;
+    padding-top: 2em;
 }
 
 .all-projects-container {
@@ -408,6 +429,120 @@ textarea {
     width: 40vw;
 }
 
+.cmzoo-img-side img{
+    width: 50vw;
+}
+
+.cmzoo-img-side {
+    padding-left: 4.5em;
+    padding-top: 1.6em;
+    
+}
+
+.research-img-layout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.research-img {
+    padding: 1em;
+}
+
+.research-img img {
+    width: 40vw;
+}
+
+.taskflow-img-layout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.taskflow-img img {
+    width: 80vw;
+}
+
+.lowfid-img-layout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.lowfid-img {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.lowfid-img img {
+    width: 20vw;
+}
+
+.timeline-text {
+    font-family: 'Raleway', sans-serif;
+    margin-left: 3.5em;
+    padding: 1em;
+}
+
+.caption-text {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1em;
+    padding-top: 0.75em;
+    line-height: 1em;
+
+}
+
+.body-text {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.15em;
+    padding-top: 2em;
+    padding-left: 3.7em;
+    padding-right: 3.7em;
+    line-height: 1.5em;
+}
+
+.body-text a {
+    color: inherit;
+}
+
+.notes-img-side img{
+    width: 40vw;
+}
+
+.notes-img-side {
+    padding-left: 4.5em;
+    padding-top: 1.6em;
+}
+
+.notes-text-side {
+    padding-left: 2em;
+    padding-right: 2em;
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
+}
+
+.strong {
+    font-weight: 600;
+}
+
+.cmzoo-section {
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+
+.action {
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+
+
 
 @keyframes arrow-load {
     0% {
@@ -568,6 +703,42 @@ textarea {
 
     .bio-name {
         padding-top: 1em;
+    }
+
+    .timeline-text {
+        text-align: center;
+        margin: 0;
+    }
+
+    .cmzoo-img-side {
+        padding-left: 0;
+    }
+
+    .cmzoo-img-side img {
+        width: 80vw;
+    }
+
+    .cmzoo-text-side {
+        align-items: center;
+        width: 90vw;
+    }
+
+    .notes-img-side {
+        padding-left: 0;
+    }
+
+    .notes-img-side img {
+        width: 80vw;
+    }
+
+    .notes-text-side {
+        align-items: center;
+        width: 90vw;
+    }
+    .sub-header-left {
+        justify-content: center;
+        align-self: center;
+        margin: 0;
     }
 
 }
