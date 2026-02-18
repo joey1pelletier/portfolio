@@ -537,12 +537,9 @@ textarea {
     padding-bottom: 3em;
 }
 
-.action {
-    padding-top: 3em;
+.reflection {
     padding-bottom: 3em;
 }
-
-
 
 @keyframes arrow-load {
     0% {
