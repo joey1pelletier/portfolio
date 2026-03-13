@@ -25,7 +25,7 @@ body {
 }
 
 .cmzoo-title {
-    font-size: 1em;
+    font-size: 1.2em;
 }
 
 .top-nav {
@@ -92,7 +92,7 @@ body {
 
 .cmzoo-text-side {
     padding-left: 2em;
-    padding-right: 2em;
+    padding-right: 3.7em;
     display: flex;
     flex-direction: column;
     width: 45vw;
@@ -265,7 +265,7 @@ body {
     overflow: hidden;
     display: flex;
     justify-content: center;
-    padding: 2em;
+    padding: 2.5em;
 }
 
 .project-container {
@@ -444,7 +444,6 @@ textarea {
     justify-content: center;
     align-items: center;
     padding-top: 2em;
-    padding-bottom: 2em;
 }
 
 .research-img {
@@ -453,6 +452,26 @@ textarea {
 
 .research-img img {
     width: 40vw;
+    height: 25vw;
+    border: 1px solid white;
+}
+
+.secondint-img {
+    padding: 1em;
+}
+
+.secondint-img img {
+    width: 40vw;
+    height: 23vw;
+    border: 1px solid white;
+}
+
+.mobile-img {
+    padding: 1em;
+}
+
+.mobile-img img {
+    width: 19vw;
 }
 
 .taskflow-img-layout {
@@ -488,6 +507,7 @@ textarea {
     font-family: 'Raleway', sans-serif;
     margin-left: 3.5em;
     padding: 1em;
+    padding-bottom: 3em;
 }
 
 .caption-text {
@@ -522,7 +542,7 @@ textarea {
 
 .notes-text-side {
     padding-left: 2em;
-    padding-right: 2em;
+    padding-right: 3.7em;
     display: flex;
     flex-direction: column;
     width: 60vw;
@@ -539,6 +559,10 @@ textarea {
 
 .reflection {
     padding-bottom: 3em;
+}
+
+.design {
+    padding-bottom: 3.5em;
 }
 
 @keyframes arrow-load {
@@ -712,12 +736,40 @@ textarea {
     }
 
     .cmzoo-img-side img {
-        width: 80vw;
+        width: 90vw;
+    }
+
+    .research-img img {
+        width: 90vw;
+        height: auto;
+    }
+
+    .secondint-img img {
+        width: 90vw;
+        height: auto;
+    }
+
+    .mobile-img img {
+        width: 70vw;
+        height: auto;
     }
 
     .cmzoo-text-side {
         align-items: center;
-        width: 90vw;
+        width: 100vw;
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+
+    .body-text {
+        align-items: center;
+        width: 100vw;
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+
+    .research-img-layout {
+        flex-direction: column;
     }
 
     .notes-img-side {
@@ -766,7 +818,6 @@ textarea {
 
     .projects-header, .header-left {
         font-size: 1.6em;
-        margin: 1em;
     }
 
     .all-projects-link {
