@@ -28,6 +28,10 @@ body {
     font-size: 1.2em;
 }
 
+.subpage-title {
+    font-size: 1.5em;
+}
+
 .top-nav {
     display: flex;
     justify-content: center;
