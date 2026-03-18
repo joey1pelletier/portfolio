@@ -867,3 +867,8 @@ textarea {
         width: 80vw;
     }
 }
+
+.project-title a {
+    color: white;
+    text-decoration: none;
+}
